@@ -1,0 +1,30 @@
+{
+  "title": "Hoàn Mỹ healthcare",
+  "desc": "TBD",
+  "introduce": {
+    "heading": "Tầm quan trọng của khám sức khoẻ định kỳ \n với doanh nghiệp \n và người lao động",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra rhoncus purus, et tristique dolor viverra a. Fusce sed eros porta, rutrum nibh eget, condimentum lacus. Sed tincidunt mauris in hendrerit imperdiet. Mauris congue, nunc ac gravida semper, urna ipsum varius nisl, ac tincidunt ipsum odio sit amet nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas condimentum quis augue non placerat. Morbi feugiat accumsan augue, accumsan finibus metus euismod nec. Maecenas blandit maximus euismod. Quisque ultricies ante tincidunt leo interdum imperdiet. Fusce suscipit magna quis nisl sollicitudin gravida. Aliquam erat volutpat. Morbi vestibulum non purus quis aliquet.",
+    "details": [
+      {
+        "icon": "/maginifying-icon.png",
+        "title": "Lorem ipsum",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "icon": "/handshake-icon.png",
+        "title": "Lorem ipsum",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "icon": "/group-icon.png",
+        "title": "Lorem ipsum",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "icon": "/connect-icon.png",
+        "title": "Lorem ipsum",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    ]
+  }
+}
