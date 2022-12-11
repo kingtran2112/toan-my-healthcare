@@ -26,5 +26,40 @@
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     ]
+  },
+  "benefit": {
+    "heading": "Lợi ích khám sức khoẻ doanh nghiệp",
+    "details": [
+      {
+        "img": "/banner.jpeg",
+        "title": "Lorem ipsum",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "img": "/health-checking.png",
+        "title": "Lorem ipsum",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "img": "/banner.jpeg",
+        "title": "Lorem ipsum",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "img": "/health-checking.png",
+        "title": "Lorem ipsum",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "img": "/banner.jpeg",
+        "title": "Lorem ipsum",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "img": "/health-checking.png",
+        "title": "Lorem ipsum",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    ]
   }
 }
