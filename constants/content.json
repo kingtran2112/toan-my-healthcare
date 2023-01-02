@@ -61,5 +61,17 @@
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     ]
+  },
+  "footer": {
+    "name": "Bệnh viện Toàn Mỹ",
+    "detail": {
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "tax": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "responsibility": "Lorem ipsum dolor"
+    },
+    "contact": {
+      "phone": "012345678",
+      "mail": "test@test.abc"
+    }
   }
 }
