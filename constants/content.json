@@ -7,22 +7,22 @@
     "details": [
       {
         "icon": "/maginifying-icon.png",
-        "title": "Lorem ipsum",
+        "title": "Lorem ipsum 1",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         "icon": "/handshake-icon.png",
-        "title": "Lorem ipsum",
+        "title": "Lorem ipsum 2",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         "icon": "/group-icon.png",
-        "title": "Lorem ipsum",
+        "title": "Lorem ipsum 3",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         "icon": "/connect-icon.png",
-        "title": "Lorem ipsum",
+        "title": "Lorem ipsum 4",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     ]
@@ -32,32 +32,32 @@
     "details": [
       {
         "img": "/banner.jpeg",
-        "title": "Lorem ipsum",
+        "title": "Lorem ipsum 1",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         "img": "/health-checking.png",
-        "title": "Lorem ipsum",
+        "title": "Lorem ipsum 2",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         "img": "/banner.jpeg",
-        "title": "Lorem ipsum",
+        "title": "Lorem ipsum 3",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         "img": "/health-checking.png",
-        "title": "Lorem ipsum",
+        "title": "Lorem ipsum 4",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         "img": "/banner.jpeg",
-        "title": "Lorem ipsum",
+        "title": "Lorem ipsum 5",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       {
         "img": "/health-checking.png",
-        "title": "Lorem ipsum",
+        "title": "Lorem ipsum 6",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     ]

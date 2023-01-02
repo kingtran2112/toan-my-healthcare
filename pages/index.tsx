@@ -15,11 +15,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="flex w-full h-50%">
+        <div className="flex w-full">
           <Image
             src={banner}
             alt="hospital banner"
-            style={{ objectFit: "fill", width: "100%" }}
+            style={{ objectFit: "fill", width: "100%", height: "100%" }}
           />
         </div>
         <Introduction />
@@ -102,8 +102,12 @@ const Introduction = () => {
         </h1>
         <hr className="w-1/3 border-t-2 border-solid border-current mt-2 mb-6" />
         <p>{content.introduce.content}</p>
-        <div className="my-4 flex justify-center">
-          <Image src={introduceImg} alt="health checking" className="w-3/4" />
+        <div className="w-full h-full my-4 flex justify-center">
+          <Image
+            src={introduceImg}
+            alt="health checking"
+            style={{ objectFit: "fill", width: "100%", height: "100%" }}
+          />
         </div>
         <div id="detail" className="flex flex-row w-full flex-wrap">
           {content.introduce.details.map((detail) => (
