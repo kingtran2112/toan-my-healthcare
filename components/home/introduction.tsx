@@ -1,6 +1,7 @@
 import content from "../../constants/content.json";
 import Image from "next/image";
 import introduceImg from "../../public/health-checking.png";
+import { Heading } from "../heading";
 
 export const Introduction = () => {
   return (
@@ -9,10 +10,7 @@ export const Introduction = () => {
       className="w-full bg-gradient-to-b from-sky-500 to-transparent"
     >
       <div className="flex flex-col items-center container mx-auto p-12">
-        <h1 className="uppercase font-bold text-3xl text-center whitespace-pre-wrap">
-          {content.introduce.heading}
-        </h1>
-        <hr className="w-1/3 border-t-2 border-solid border-current mt-2 mb-6" />
+        <Heading heading={content.introduce.heading} />
         <p>{content.introduce.content}</p>
         <div className="w-full h-full my-4 flex justify-center">
           <Image
