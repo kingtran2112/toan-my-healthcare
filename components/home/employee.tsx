@@ -21,6 +21,7 @@ export const Employees = () => {
         centerSlidePercentage={50}
         infiniteLoop
         showArrows
+        showStatus={false}
         showIndicators={false}
         showThumbs={false}
       >
