@@ -1,10 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
+
 import content from "../../constants/content.json";
 import banner from "../../public/banner.jpeg";
 import { Introduction } from "./introduction";
 import { Benefit } from "./benefit";
 import { Footer } from "../footer";
+import { Process } from "./process";
 
 export default function HomeComponent() {
   return (
@@ -25,6 +27,7 @@ export default function HomeComponent() {
         </div>
         <Introduction />
         <Benefit />
+        <Process />
         <Footer />
       </main>
     </div>

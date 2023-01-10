@@ -1,5 +1,6 @@
-import content from "../../constants/content.json";
 import Image from "next/image";
+
+import content from "../../constants/content.json";
 import introduceImg from "../../public/health-checking.png";
 import { Heading } from "../heading";
 

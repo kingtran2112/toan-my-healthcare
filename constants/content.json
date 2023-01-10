@@ -62,6 +62,9 @@
       }
     ]
   },
+  "process": {
+    "heading": "QUY TRÌNH KHÁM SỨC KHỎE TẠI HỆ THỐNG Y TẾ"
+  },
   "footer": {
     "name": "Bệnh viện Toàn Mỹ",
     "detail": {
