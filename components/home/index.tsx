@@ -7,6 +7,7 @@ import { Introduction } from "./introduction";
 import { Benefit } from "./benefit";
 import { Footer } from "../footer";
 import { Process } from "./process";
+import { Employees } from "./employee";
 
 export default function HomeComponent() {
   return (
@@ -28,6 +29,7 @@ export default function HomeComponent() {
         <Introduction />
         <Benefit />
         <Process />
+        <Employees />
         <Footer />
       </main>
     </div>
