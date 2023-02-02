@@ -67,33 +67,50 @@
   },
   "capacity": {
     "heading": "NĂNG LỰC HỆ THỐNG Y TẾ",
-    "employees": [
-      {
-        "name": "Bác sĩ A",
-        "title": "Chủ nhiệm Nội khoa",
-        "image": "/employee-1.jpeg"
-      },
-      {
-        "name": "Bác sĩ B",
-        "title": "Chủ nhiệm Ngoại khoa",
-        "image": "/employee-2.jpeg"
-      },
-      {
-        "name": "Bác sĩ C",
-        "title": "Chủ nhiệm Y khoa",
-        "image": "/employee-3.avif"
-      },
-      {
-        "name": "Bác sĩ D",
-        "title": "Chủ nhiệm Tỉnh",
-        "image": "/employee-4.webp"
-      },
-      {
-        "name": "Bác sĩ E",
-        "title": "Chủ nhiệm Chuyên khoa",
-        "image": "/employee-5.jpeg"
-      }
-    ]
+    "employees": {
+      "title": "Đội ngũ chuyên gia",
+      "member": [
+        {
+          "name": "Bác sĩ A",
+          "title": "Chủ nhiệm Nội khoa",
+          "image": "/employee-1.jpeg"
+        },
+        {
+          "name": "Bác sĩ B",
+          "title": "Chủ nhiệm Ngoại khoa",
+          "image": "/employee-2.jpeg"
+        },
+        {
+          "name": "Bác sĩ C",
+          "title": "Chủ nhiệm Y khoa",
+          "image": "/employee-3.jpeg"
+        },
+        {
+          "name": "Bác sĩ D",
+          "title": "Chủ nhiệm Tỉnh",
+          "image": "/employee-4.webp"
+        },
+        {
+          "name": "Bác sĩ E",
+          "title": "Chủ nhiệm Chuyên khoa",
+          "image": "/employee-5.jpeg"
+        }
+      ]
+    },
+    "equipments": {
+      "title": "Cơ sở vật chất khang trang \n Trang thiết bị hiện đại",
+      "devices": [
+        "/equipment-1.jpeg",
+        "/equipment-2.png",
+        "/equipment-3.png",
+        "/equipment-4.jpeg",
+        "/equipment-5.png",
+        "/equipment-6.webp"
+      ]
+    },
+    "hospital": {
+      "img": "/hospital.jpeg"
+    }
   },
   "footer": {
     "name": "Bệnh viện Toàn Mỹ",

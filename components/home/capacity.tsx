@@ -15,7 +15,7 @@ export const Capacity = () => {
 };
 
 const Employees = () => {
-  const employees = content.capacity.employees.map((e) => (
+  const employees = content.capacity.employees.member.map((e) => (
     <div key={e.image} className="mx-5 shadow-lg rounded-xl overflow-hidden">
       <Image src={e.image} alt="" width={300} height={300} />
       <p>{e.name}</p>
@@ -23,9 +23,15 @@ const Employees = () => {
     </div>
   ));
 
+  const equipments = content.capacity.equipments.devices.map((e) => (
+    <div key={e} className="shadow-lg rounded-xl overflow-hidden m-auto">
+      <Image src={e} alt="hospital device" width={300} height={300} />
+    </div>
+  ));
+
   return (
     <div>
-      <SubHeading title="Đội ngũ chuyên gia" />
+      <SubHeading title={content.capacity.employees.title} />
       <Carousel
         autoPlay
         centerMode
@@ -38,6 +44,17 @@ const Employees = () => {
       >
         {employees}
       </Carousel>
+      <SubHeading title={content.capacity.equipments.title} />
+      <div className="grid grid-cols-3 gap-1 px-6">{equipments}</div>
+      <div className="w-full m-auto px-6 mt-16">
+        <Image
+          className="w-full"
+          src={content.capacity.hospital.img}
+          alt=""
+          width={300}
+          height={300}
+        />
+      </div>
     </div>
   );
 };
