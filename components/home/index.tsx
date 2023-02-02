@@ -7,7 +7,7 @@ import { Introduction } from "./introduction";
 import { Benefit } from "./benefit";
 import { Footer } from "../footer";
 import { Process } from "./process";
-import { Employees } from "./employee";
+import { Capacity } from "./capacity";
 
 export default function HomeComponent() {
   return (
@@ -29,7 +29,7 @@ export default function HomeComponent() {
         <Introduction />
         <Benefit />
         <Process />
-        <Employees />
+        <Capacity />
         <Footer />
       </main>
     </div>
