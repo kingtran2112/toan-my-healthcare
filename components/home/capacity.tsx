@@ -7,7 +7,7 @@ import { SubHeading } from "../sub-heading";
 
 export const Capacity = () => {
   return (
-    <div>
+    <div className="mb-12">
       <Heading heading={content.capacity.heading} />
       <Employees />
     </div>

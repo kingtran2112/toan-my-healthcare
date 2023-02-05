@@ -8,6 +8,7 @@ import { Benefit } from "./benefit";
 import { Footer } from "../footer";
 import { Process } from "./process";
 import { Capacity } from "./capacity";
+import { Package } from "./package";
 
 export default function HomeComponent() {
   return (
@@ -30,6 +31,7 @@ export default function HomeComponent() {
         <Benefit />
         <Process />
         <Capacity />
+        <Package />
         <Footer />
       </main>
     </div>

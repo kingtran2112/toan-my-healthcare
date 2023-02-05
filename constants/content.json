@@ -112,6 +112,33 @@
       "img": "/hospital.jpeg"
     }
   },
+  "package": {
+    "heading": "Gói khám sức khỏe doanh nghiệp",
+    "basic": {
+      "name": "Gói khám cơ bản",
+      "price": {
+        "male": 510000,
+        "female": 590000,
+        "currency": "VND"
+      }
+    },
+    "advance": {
+      "name": "Gói khám nâng cao",
+      "price": {
+        "male": 1300000,
+        "female": 1600000,
+        "currency": "VND"
+      }
+    },
+    "vip": {
+      "name": "Gói khám VIP",
+      "price": {
+        "male": 2100000,
+        "female": 2500000,
+        "currency": "VND"
+      }
+    }
+  },
   "footer": {
     "name": "Bệnh viện Toàn Mỹ",
     "detail": {

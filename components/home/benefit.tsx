@@ -6,7 +6,7 @@ import { Heading } from "../heading";
 export const Benefit = () => {
   return (
     <div id="benefit" className="w-full">
-      <div className="flex flex-col items-center container mx-auto p-12 ">
+      <div className="flex flex-col items-center container mx-auto p-12">
         <Heading heading={content.benefit.heading} />
         <div className="flex w-full flex-wrap justify-evenly">
           {content.benefit.details.map((detail) => (
