@@ -5,7 +5,7 @@ export const Package = () => {
   return (
     <div className="mb-12">
       <Heading heading={content.package.heading}></Heading>
-      <div className="flex w-full justify-evenly items-center">
+      <div className="flex flex-wrap w-full justify-evenly items-center">
         <PackageDetail
           name={content.package.advance.name}
           malePrice={content.package.advance.price.male}
@@ -49,7 +49,7 @@ const PackageDetail = ({
   });
   return (
     <div
-      className={`text-center border-4 p-3 rounded-lg border-yellow-400 w-1/5 ${
+      className={`text-center border-4 p-3 rounded-lg border-yellow-400 w-3/4 md:w-1/5 min-w-fit ${
         center ? "text-2xl py-8" : ""
       }`}
     >
